@@ -1,4 +1,4 @@
-public class Multiplier {
+public class Multiply {
 	/*
 	 * Write a method that accepts two integers and returns the value obtained
 	 * by multiplying them together. So if I pass in 3 and 2, I should expect 6
