@@ -1,4 +1,4 @@
-public class Discounter {
+public class Discount {
 
 	public static int purchase(int price, int payment, int discount) {
 		int saving = price / discount;
