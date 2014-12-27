@@ -1,4 +1,4 @@
-public class CapitaliserWithOddLengthDetection {
+public class CapitaliseWithOddLengthDetection {
 
 	public static boolean isOddLength(String userSource) {
 		int rem = userSource.length() % 2;
