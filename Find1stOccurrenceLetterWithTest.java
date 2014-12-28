@@ -1,6 +1,6 @@
 /**
  */
-public class Find1stOccurrenceLetter {
+public class Find1stOccurrenceLetterWithTest {
 	/**
 	 * Returns the first position of the target letter in the supplied string or
 	 * -1 if the letter does not appear at all. The position is zero-based so
