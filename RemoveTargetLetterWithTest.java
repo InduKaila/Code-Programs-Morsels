@@ -1,6 +1,6 @@
 /**
  */
-public class RemoveTargetLetter {
+public class RemoveTargetLetterWithTest {
 	/**
 	 * Returns a string in which all occurrences of the target letter have been
 	 * removed from the sample string. The comparison is case sensitive (i.e. A
