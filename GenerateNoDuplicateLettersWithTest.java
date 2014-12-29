@@ -16,7 +16,7 @@ public class GenerateNoDuplicateLettersWithTest {
 		for (int i = 0; i < s1.length(); i++) {
 			char letter = s1.charAt(i);
 
-			// means if does not contain a letter (ie less than index 0, meaning -1)
+			// means if does not contain a letter (ie has an index less than index 0, meaning -1)
 			if (unique.indexOf(letter) < 0) {
 
 				unique = unique + letter;
