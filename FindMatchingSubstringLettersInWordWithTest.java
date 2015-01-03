@@ -15,7 +15,7 @@ public class FindMatchingSubstringLettersInWordWithTest {
 	 *            position in sample word from which to begin comparison.
 	 * @return true if the substring matches; false otherwise
 	 */
-	// position is where word letter and substring letter match
+	
 	private static boolean matchesAt(String word, String substring, int position) {
 		for (int i = 0; i < substring.length(); i++) {
 	
