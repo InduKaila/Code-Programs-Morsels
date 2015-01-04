@@ -1,4 +1,4 @@
-public class AddLetterAlternately {
+public class AddLetterAlternatelyWithTest {
 	/**
 	 * @param args
 	 */
