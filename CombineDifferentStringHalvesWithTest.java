@@ -15,8 +15,7 @@ public class CombineDifferentStringHalvesWithTest {
 	private static String halfAndHalf(String s1, String s2) {
 		String result = "";
 		int halfWay = s1.length() / 2;
-		
-// UNCOMMENT AND FILL IN THE BLANKS		
+			
 		for (int i = 0; i < s1.length() / 2; i++) {
 			result += s1.charAt(i);
 		}
