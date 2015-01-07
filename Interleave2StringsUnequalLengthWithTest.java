@@ -1,4 +1,4 @@
-public class Interleave2StringsUnequalLength {
+public class Interleave2StringsUnequalLengthWithTest {
 	/**
 	 * @param args
 	 */
