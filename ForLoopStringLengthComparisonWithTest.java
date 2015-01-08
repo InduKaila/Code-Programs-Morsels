@@ -27,7 +27,7 @@ public class ForLoopStringLengthComparisonWithTest {
 	private static void test(String us1, String us2, int expectedIndex) {
 		int observedIndex = getIndexOf1stMatchingLetter(us1, us2);
 		if (observedIndex == expectedIndex)
-			System.out.println("The Test has passed: the index of the first matching letter is" + expectedIndex);
+			System.out.println("The Test has passed: the index of the first matching letter is " + expectedIndex);
 		else
 			System.out.println("FAIL! Expected " + expectedIndex + " but got " + observedIndex);
 	}
