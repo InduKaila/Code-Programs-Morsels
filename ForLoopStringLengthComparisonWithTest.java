@@ -25,13 +25,15 @@ public class ForLoopStringLengthComparisonWithTest {
 	}
 
 	private static void test(String us1, String us2, int expectedIndex) {
-		int observedIndex = getIndexOf1stMatchingLetter(us1, us2);
-		if (observedIndex == expectedIndex)
+		int indexFound = getIndexOf1stMatchingLetter(us1, us2);
+		if (indexFound == expectedIndex)
 			System.out.println("The Test has passed: the index of the first matching letter is " + expectedIndex);
 		else
-			System.out.println("FAIL! Expected " + expectedIndex + " but got " + observedIndex);
+			System.out.println("FAIL! Expected " + expectedIndex + " but got " + indexFound);
 	}
 
+	// Created a test
+	// Has to be a matching letter at the same index
 	public static void main(String[] args) {
 		test("a", "a", 0);
 		test("ac", "bc", 1);
