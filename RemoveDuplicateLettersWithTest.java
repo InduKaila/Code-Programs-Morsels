@@ -1,4 +1,4 @@
-public class RemoveDuplicateLetters {
+public class RemoveDuplicateLettersWithTest {
 	/**
 	 * @param args
 	 */
