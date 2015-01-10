@@ -5,17 +5,17 @@ public class RemoveDuplicateLettersWithTest {
 
 	private static String uniqueLetters(String word) {
 
-		String unique = "";
+		String newString = "";
 
 		for (int index = 0; index < word.length(); index++) {
 			char thisLetter = word.charAt(index);
 
-			if (unique.indexOf(thisLetter) < 0) {
+			if (newString.indexOf(thisLetter) < 0) {
 
-				unique = unique + thisLetter;
+				newString = newString + thisLetter;
 			}
 		}
-		return unique;
+		return newString;
 	}
 
 	private static void test(String w, String expected) {
